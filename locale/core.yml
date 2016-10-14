@@ -260,7 +260,7 @@ core:
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profile
-      search_placeholder: Search Forum
+      search_placeholder: Pesquisar Fórum
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
