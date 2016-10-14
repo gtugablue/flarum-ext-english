@@ -499,7 +499,7 @@ core:
     email: Email
     load_more: Load More
     log_in: Log In
-    log_out: Log Out
+    log_out: Terminar sessão
     mark_all_as_read: Mark All as Read
     next_page: Next Page
     notifications: Notifications
