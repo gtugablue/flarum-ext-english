@@ -20,7 +20,6 @@ core:
       colors_text: "Escolha duas cores para tematizar o seu fórum. A primeira será usada como cor de destaque, enquanto a segunda será usada para estilizar elementos de fundo."
       custom_header_heading: Custom Header
       custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-      
       custom_styles_heading: Estilos Personalizados
       custom_styles_text: Personalize a aparência do seu fórum adicionando o seu próprio código LESS/CSS que será aplicado em cima dos estilos padrões do Flarum.
       dark_mode_label: Modo Escuro
@@ -74,29 +73,31 @@ core:
       name_label: Nome
       plural_placeholder: Plural (ex. Moderadores)
       singular_placeholder: Singular (ex. Moderador)
-      submit_button: => core.ref.save_changes		
-      title: Create Group		
-    # These translations are used in the Edit Custom Header modal dialog.		
-    edit_header:		
-      customize_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."		
-      submit_button: => core.ref.save_changes		
-      title: Edit Custom Header		
-    # These translations are used in the email page of the admin interface.		
-    email:		
-      account_heading: SMTP Account		
-      addresses_heading: Addresses		
-      driver_label: Driver		
-      encryption_label: Encryption		
-      from_label: Sender		
-      heading: => core.ref.email		
-      host_label: Host		
-      password_label: => core.ref.password		
-      port_label: Port		
+      submit_button: => core.ref.save_changes
+      title: Create Group
+
+    # These translations are used in the Edit Custom Header modal dialog.
+    edit_header:
+      customize_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+      submit_button: => core.ref.save_changes
+      title: Edit Custom Header
+
+    # These translations are used in the email page of the admin interface.
+    email:
+      account_heading: SMTP Account
+      addresses_heading: Addresses
+      driver_label: Driver
+      encryption_label: Encryption
+      from_label: Sender
+      heading: => core.ref.email
+      host_label: Host
+      password_label: => core.ref.password
+      port_label: Port
       server_heading: SMTP Server
       submit_button: => core.ref.save_changes
       text: Configure the SMTP settings and addresses your forum will use to send email.
       username_label: => core.ref.username
-      
+
     # These translations are used in the Extensions page.
     extensions:
       add_button: Adicionar Extensão
@@ -161,11 +162,11 @@ core:
     # These translations are used in the Settings modal dialog.
     settings:
       submit_button: => core.ref.save_changes
-      
-    # These translations are used in image upload buttons.		
-    upload_image:		
-      remove_button: Remove		
-      upload_button: Choose an Image...		
+
+    # These translations are used in image upload buttons.
+    upload_image:
+      remove_button: Remove
+      upload_button: Choose an Image...
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -389,10 +390,10 @@ core:
     # These translations are displayed as tooltips for discussion badges.
     badge:
       hidden_tooltip: Oculto
-    
+
     # These translations are used to modify usernames.
     username:
-       deleted_text: "[apagado]"
+      deleted_text: "[apagado]"
 
     # These translations are displayed as error messages.
     error:
@@ -411,29 +412,29 @@ core:
       glue_text: ", "
       three_text: "{first}, {second}, e {third}"
       two_text: "{first} e {second}"
-      
-  # Translations in this namespace are used in views other than Flarum's normal JS client.		
+
+  # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
-    # Translations in this namespace are displayed by the basic HTML content loader.		
+    # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.		
-      load_error_message: Something went wrong while trying to load the full version of this site.		
+      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
+      load_error_message: Something went wrong while trying to load the full version of this site.
       loading_text: Loading...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
       next_page_button: => core.ref.next_page
       previous_page_button: Previous Page
-      
-      # Translations in this namespace are displayed by the basic HTML discussion index.		
-    index:		
-      all_discussions_heading: => core.ref.all_discussions		
-      next_page_button: => core.ref.next_page		
+
+      # Translations in this namespace are displayed by the basic HTML discussion index.
+    index:
+      all_discussions_heading: => core.ref.all_discussions
+      next_page_button: => core.ref.next_page
     # Translations in this namespace are displayed by the Reset Password interface.
     reset:
       confirm_password_label: => core.ref.confirm_password
-      password_label: => core.ref.password		
-      submit_button: Reset Password		
+      password_label: => core.ref.password
+      submit_button: Reset Password
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in emails sent by the forum.
