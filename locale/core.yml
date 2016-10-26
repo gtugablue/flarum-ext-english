@@ -221,7 +221,7 @@ core:
       delete_confirmation: "Você tem certeza que deseja deletar esta discussão?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Entre e Responda
-      rename_button: Renomearedited_text: Edited
+      rename_button: Renomear
       rename_text: "Digite um novo título para esta discussão:"
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
